@@ -1,0 +1,38 @@
+body {
+  background-image: url("/cookie_pac_man.png");
+  background-size: cover;
+  color: #fff;
+  opacity: .9;
+}
+
+img {
+  height: 225px;
+  width: 225px;
+}
+
+.cookie_container {
+  margin: 0 auto;
+  width: 79%;
+  padding-top: 100px;
+}
+.cookie_info {
+  display: inline-block;
+  padding: 0 60px;
+  text-align: center;
+}
+
+.cookie_button {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#buy_button, #delete_all_cookies_button {
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: lightblue;
+  position: relative;
+  left: 250px;
+  top: 70px;
+  margin-right: 150px;
+}
